@@ -1,8 +1,9 @@
 
 body{
-    width: 90%;
+    width: 95%;
+    height: auto;
     background-color: rgb(233, 241, 242);
-    margin: 2rem 3rem ;
+    margin: 1rem 3rem ;
 
 }
 
@@ -18,7 +19,7 @@ ul {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 0.3rem;
 }
 
 a {
@@ -58,5 +59,14 @@ p{
 
 footer{
     background-color: rgb(166, 166, 229);
+}
+
+.rodape ul li img{
+    height: 30px;
+}
+
+.rodape{
+    align-content: center;
+    align-items: center;
 }
 
